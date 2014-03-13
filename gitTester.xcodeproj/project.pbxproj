@@ -21,6 +21,7 @@
 		B760D06E18CFB73300838FF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B760D05018CFB73200838FF0 /* UIKit.framework */; };
 		B760D07618CFB73300838FF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B760D07418CFB73300838FF0 /* InfoPlist.strings */; };
 		B760D07818CFB73300838FF0 /* gitTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B760D07718CFB73300838FF0 /* gitTesterTests.m */; };
+		B774198618D256C9008FFF4A /* PATest.m in Sources */ = {isa = PBXBuildFile; fileRef = B774198518D256C9008FFF4A /* PATest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B760D07318CFB73300838FF0 /* gitTesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTesterTests-Info.plist"; sourceTree = "<group>"; };
 		B760D07518CFB73300838FF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B760D07718CFB73300838FF0 /* gitTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTesterTests.m; sourceTree = "<group>"; };
+		B774198418D256C9008FFF4A /* PATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PATest.h; sourceTree = "<group>"; };
+		B774198518D256C9008FFF4A /* PATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PATest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		B760D04018CFB73200838FF0 = {
 			isa = PBXGroup;
 			children = (
+				B774198418D256C9008FFF4A /* PATest.h */,
+				B774198518D256C9008FFF4A /* PATest.m */,
 				B760D05218CFB73200838FF0 /* gitTester */,
 				B760D07118CFB73300838FF0 /* gitTesterTests */,
 				B760D04B18CFB73200838FF0 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B774198618D256C9008FFF4A /* PATest.m in Sources */,
 				B760D05918CFB73200838FF0 /* main.m in Sources */,
 				B760D06318CFB73200838FF0 /* PAViewController.m in Sources */,
 				B760D05D18CFB73200838FF0 /* PAAppDelegate.m in Sources */,
@@ -461,6 +467,7 @@
 				B760D07D18CFB73300838FF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B760D07E18CFB73300838FF0 /* Build configuration list for PBXNativeTarget "gitTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				B760D08018CFB73300838FF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
